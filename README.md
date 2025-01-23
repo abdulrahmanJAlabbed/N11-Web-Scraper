@@ -56,4 +56,10 @@ Ensure that you have a stable internet connection while running the scraper.
 The scraper runs in non-headless mode by default to facilitate debugging. To enable headless mode, adjust the Puppeteer launch settings in n11.js.
 Adjust random delay timings in the script to mimic human-like interactions.
 
+> [!WARNING]  
+> Puppeteer requires the path to your Chrome executable. For Windows, update the executablePath in the script to the default Chrome location:
+> ```bash
+>executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
+> ```
+
 🎉 Happy scraping! 🚀
